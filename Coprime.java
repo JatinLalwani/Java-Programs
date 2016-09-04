@@ -1,6 +1,5 @@
-// Coprime numbers are the numbers whose GCD/HCF = 1.
 import java.util.Scanner;
-class Coprime{
+public class Coprime{
 	public static void main(String... args){
 		Scanner s = new Scanner(System.in);
 		System.out.println();
@@ -12,7 +11,11 @@ class Coprime{
 		int r1 = s.nextInt();
 		System.out.print("Second integer: ");
 		int r2 = s.nextInt();
-		
+		Coprime c = new Coprime();
+		c.Coprime(r1,r2);	
+	}
+	
+	public  void Coprime(int r1, int r2){
 		if(r1<r2){
 			r1 = r1+r2; // A simple way
 			r2 = r1-r2; // to exchange
