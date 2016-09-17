@@ -28,10 +28,10 @@ class Spiral{
 	}
 	
 	void spiral(char[][] TwoDArray){
-		int k=0, // Beggining of rows;
-		    m=TwoDArray.length-1, //Ending of Rows.
-		    l=0, // Beggining of Columns;
-			n=TwoDArray.length-1; // Ending of columns
+		int k=0, // Beginning of rows from the remaining rows
+		    m=TwoDArray.length-1, //Ending of Rows from the remaining rows.
+		    l=0, // Beginning of Columns from the remaining columns;
+			n=TwoDArray.length-1; // Ending of columns from the remaining columns
 			System.out.println("So the 2D array you provided is-\n");
 			for(int i = 0;i<TwoDArray.length;i++){
 				for(int j = 0;j<TwoDArray.length;j++)
