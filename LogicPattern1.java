@@ -1,3 +1,6 @@
+// While writing programs for logic patterns, keep in mind that you have to print from left to right and Top to bottom.
+// There's no other way. Once you jumped to next line you cannot get back to same line again.
+
 /*           *
             * *
 	   *   *
