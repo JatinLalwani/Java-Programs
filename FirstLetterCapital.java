@@ -17,8 +17,8 @@ class FirstLetterCapital{
 		for(int i=0;i<strArray.length;i++){
 			strArray[i] = strArray[i].substring(0, 1).toUpperCase() + strArray[i].substring(1); // String[i] = first character of
 			                                                                                    // String[i] to capital +
-																								// Remaining sub-string of
-																								// String[i]
+									                                    // Remaining sub-string of
+								                                            // String[i]
 			str += strArray[i]+" ";// +" " is added for a space.
 		}
 			
