@@ -21,3 +21,24 @@ class PracticeProblem11{
 		return new String(temp);
 	}
 }
+
+//   ALTERNATIVE SOLUTION:
+/*
+class Try{
+	public static void main(String... args){
+		String str = "jatin is a CHAmpion";
+		String[] strArray = str.split(" "); // array of String
+		StringBuilder[] s = new StringBuilder[strArray.length]; // array of StringBuilbers
+		for(int i=0;i<strArray.length;i++){
+			// if a string contains N characters, lowercase 1st N-1 and Uppercase the last one.
+			strArray[i] = strArray[i].substring(0,strArray[i].length()-1).toLowerCase() + 
+			strArray[i].substring(strArray[i].length()-1,strArray[i].length()).toUpperCase();
+			
+			s[i] = new StringBuilder(strArray[i]); // after doing above put it in string builder array as an element.
+		}
+			
+		for(int i=0;i<strArray.length;i++)
+			System.out.print(s[i].reverse()+" "); // simply reverse and print.
+	}
+}
+*/
