@@ -15,6 +15,10 @@ other side, we have 5*5 = 25 combinations. */
 // Type 2: in this I have shown not just the no. of combinations but the possible combinations at one side of the
 // street. And I have not taken any inputs from user. I have used my own inputs.
 
+// LOGIC:
+// To access all combinations I have use binary numbers from 0 to (2^n) - 1. where i will be replacing 1 with x and 0 with y.
+// if a binary number has 2 consecutive 1s then discard it.
+
 import java.lang.Math;
 class KingKohima2{
 	static int count =0;
