@@ -31,3 +31,24 @@ class DuplicateDigit{
 		return false;
 	}	
 }
+
+// ALTERNATE SOLUTION(SIMPLE):
+/*
+class Try{
+	public static void main(String... args){
+		int a = 123456789;
+		String s = Integer.toString(a);
+		char[] c = s.toCharArray();
+		for(int i=1;i<c.length;i++){
+			for(int j=i-1;j>=0;j--){
+				if(c[i] == c[j]){
+					System.out.print("Contains Duplicate");
+					System.exit(0);
+				}
+					
+			}
+		}
+		System.out.print("Does not");
+	}
+}
+*/
