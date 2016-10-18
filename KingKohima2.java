@@ -19,11 +19,13 @@ other side, we have 5*5 = 25 combinations. */
 // To access all combinations I have use binary numbers from 0 to (2^n) - 1. where i will be replacing 1 with x and 0 with y.
 // if a binary number has 2 consecutive 1s then discard it.
 
+import java.util.Scanner;
 import java.lang.Math;
 class KingKohima2{
 	static int count =0;
 	public static void main(String... args){
-		int n=4;
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
 		int length = (int)Math.pow(2,n)-1;
 		String bin;
 		System.out.println("\nCombinations on one side are: ");
